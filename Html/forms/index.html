@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+  <form action = "/contact-me">
+    <label for="email">UserName: </label>
+    <input type="text" id = "email" placeholder="Enter email here" required><br>
+
+    <label for="user_password">Password: </label>
+    <input type="password" id = "user_password" placeholder="Enter password here"><br>
+    <input type="submit"><br>
+
+  
+    Date: <input type = "date"> <br>
+    File: <input type = "file"><br>
+    Color: <input type = "color"><br>
+    Range: <input type = "range"><br>
+    Poke me: <input type = "button" value = "poked"><br>
+
+
+    <label for="male">Male</label>
+    <input type="radio" id = "male" name = "gender"><br> 
+
+    <label for="female">Female</label>
+    <input type="radio" id = "female" name = "gender"><br>  
+
+    <label for="other">Other</label>
+    <input type="radio" id = "other" name = "gender"><br>  
+
+    <label for="c">C: </label>
+    <input type="checkbox" id = "c" name = "lang"><br> 
+
+    <label for="java">Java: </label>
+    <input type="checkbox" id = "java" name = "lang"><br>  
+
+    <label for="c++">C++: </label>
+    <input type="checkbox" id = "c++" name = "lang"><br>  
+    <textarea name="story" id="story" col = "30" row = "4">Please story</textarea><br>
+
+    <label for="fruits">Choose a fruit: </label>
+    <select id = "fruits" name = "Fruits">
+      <option value = "apple">Apple</option>
+      <option value = "mango">Mango</option>
+      <option value = "banana">Banana</option>
+  </form>
+  
+</body>
+</html>
