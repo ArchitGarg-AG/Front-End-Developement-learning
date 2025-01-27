@@ -1,0 +1,15 @@
+#nav {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  padding: 5px;
+  background-color: #e46060;
+}
+#box {
+  height: 70px;
+  width: 70px;
+  padding: 10px 15px;
+  margin: 100px;
+  border: 2px dotted red;
+  border-radius: 35px;
+}

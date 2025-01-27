@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practise set 7</title>
+
+  <style>
+    .progress_container {
+      height: 25px;
+      width: 90%;
+      background-color: bisque;
+      border: 2px solid black;
+      border-radius: 20px;
+      position: relative;
+      left: 4%;
+    }
+
+    .progress_bar {
+      height: 100%;
+      background-color: rgb(101, 160, 110);
+      border-radius: 20px;
+
+      animation: animate_progress 5s linear infinite;
+    }
+
+    @keyframes animate_progress {
+      0% {
+        width: 0%;
+      }
+      90% {
+        width: 95%;
+      }
+      95% {
+        width: 88%;
+      }
+      100% {
+        width: 100%;
+      }
+      
+    }
+
+  </style>
+
+</head>
+<body>
+  <div class="progress_container">
+    <div class="progress_bar"></div>
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background color</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .back_learn {
+        color: orange;
+        background-color: rgb(16, 217, 167, 0.5);
+      }
+      .box {
+        height: 40px;
+        width: 40px;
+      }
+      #box1 {
+        background-color: red;
+      }
+      #box2 {
+        background-color: green;
+      }
+      #box3 {
+        background-color: blue;
+      }
+      #icon {
+        height: 50px;
+        width: 50px;
+        background-image: url(/color/images/myntralogo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+      }
+      .container {
+        height: 100px;
+        width: 100px;
+      }
+      #container1 {
+        background-color: red;
+        visibility: visible;
+      }
+
+      #container2 {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="back_learn">Background Color</div>
+
+    <div id="box1" class="box">Box 1</div>
+    <br />
+    <div id="box2" class="box">Box 2</div>
+    <br />
+    <div id="box3" class="box">Box 3</div>
+
+    <div id="icon"></div>
+
+    <div id="container1" class="container">A</div>
+    <div id="container2" class="container">B</div>
+  </body>
+</html>
