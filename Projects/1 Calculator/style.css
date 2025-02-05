@@ -1,0 +1,25 @@
+#calc {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 200px;
+
+}
+
+#display {
+  margin: 10px;
+  width: 85%;
+  font-size: 30px;
+
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.num {
+  width: 45px;
+  height: 45px;
+  margin: 3px;
+
+}

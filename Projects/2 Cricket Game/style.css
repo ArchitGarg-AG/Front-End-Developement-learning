@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=1905&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.choice-button {
+  height: 80px;
+  width: 80px;
+  border: none;
+  margin: 15px;
+  border-radius: 45px;
+  background-color: #3f5ba3;
+  cursor: pointer;
+}
+
+.choice-image {
+  height: 60px;
+}

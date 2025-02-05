@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practise set 3</title>
+</head>
+<body>
+
+<p id="name-display"></p>
+
+  <script>
+
+    const myName = "Archit Garg";
+    console.log(myName);
+    document.querySelector('#name-display').
+    innerText = myName;
+
+    const GSTper = 18;
+    let jeans = (15599 - (10/100 * 15599)) - 272;
+    let bag = (2499 - (41/100 *2499)) - 29;
+
+    let bills = Math.round(((jeans + bag) + 25 + 20) * (100 + GSTper)/100);
+
+    let summary = `The total bill is $${bills}`;
+    console.log(summary);
+
+    console.log(eval('45+40'));
+
+  </script>
+  
+</body>
+</html>

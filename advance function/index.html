@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Functions</title>
+</head>
+<body>
+  <BUtton id="MY-BTN">CLCIK</BUtton>
+
+  <script>
+
+
+     let b = [4,4,25,6,0];
+    //  b.forEach(function(k) {
+    //   console.log(k)
+    //  })
+
+    b.forEach((k) => console.log(k));
+
+
+
+
+
+
+
+    let a = document.querySelector('#MY-BTN');
+    a.addEventListener('click', event => console.log('Hello'));
+
+    // let sum = function (num1, num2) {
+    //   return num1 + num2;
+    // }
+
+    let sum = (num1, num2) => {
+      return num1 + num2;
+    }
+
+    // let square0.
+    //  = num => num * num;
+
+    // console.log(sum(4, 7));
+
+    let sum3 = function(num1, num2, num3, sum) {
+      let sum1 = sum(num1, num2);
+      return sum(sum1, num3);
+    }
+    console.log(sum3(4,5,6, sum));
+
+    setTimeout(() =>console.log('Subaha ho gayi') , 2000);
+    console.log('AlRAM SET');
+
+
+
+  </script>
+  
+</body>
+</html>

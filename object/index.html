@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Objects</title>
+</head>
+<body>
+
+  <script>
+    let product = {
+      company: 'Mango',
+      price: 300,
+      'item-name': 'T-shirt',
+      displayPrice: function() {
+        console.log(`Price of the product is $${this.price}`)
+      }
+    };
+
+
+    product.displayPrice();
+
+
+    let {company, price} = product;
+    console.log(company);
+    console.log(price);
+    // console.log(product);
+    // console.log(product.company);
+    // console.log(product.price);
+    // console.log(product['item-name']);
+    
+    // product.company = 'Lulumelonn';
+    // console.log(product);
+    // console.log(product['company']);
+    
+    // delete product.company;
+    // console.log(product);
+
+    // console.log('this is archit Garg'.toUpperCase());
+
+
+    // let a = 5;
+    // let b = a;
+
+    
+    // console.log(`${a} , ${b}`);
+    // a = 8;
+    // console.log(`${a} , ${b}`);
+    
+    // let x = {num: 5};
+    // let y = x;
+    // console.log(`x=${x.num} , y=${y.num}`);
+    // x.num=8;
+    // console.log(`x=${x.num} , y=${y.num}`);
+
+    // let p = {pop: 'iujh'};
+    // let q = {pop: 'iujh'};
+
+    // console.log(p==q);
+
+    
+
+  </script>
+  
+</body>
+</html>

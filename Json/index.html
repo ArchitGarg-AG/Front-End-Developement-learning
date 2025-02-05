@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Json</title>
+</head>
+<body>
+
+  <script>
+    let product = {
+      name: `T-shirt`,
+      price: 450,
+      rating : {
+        star: 4.5,
+        Rev: 453,
+      },
+    };
+
+    console.log(typeof product);
+    console.log(product);
+    let str = JSON.stringify(product);
+    console.log(str);
+    console.log(typeof str);
+
+    let newProd =JSON.parse(str);
+    console.log(typeof newProd);
+    console.log(newProd);
+    
+  </script>
+  
+</body>
+</html>
